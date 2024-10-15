@@ -2,6 +2,19 @@ import project1 from "../assets/img/saloat0.png";
 import project2 from "../assets/img/se7aba1.png";
 import project3 from "../assets/img/vegia.png";
 import project4 from "../assets/img/Wellness weight.png";
+import project5 from "../assets/img/finance-tracker.png";
+import project6 from "../assets/img/library-hub.png"
+import project7 from "../assets/img/pro-task.png"
+import project8 from "../assets/img/discover-aswan.png"
+import project9 from "../assets/img/easy-bank.png"
+import project10 from "../assets/img/music-player.png"
+import project11 from "../assets/img/recipe-finder.png"
+import project12 from "../assets/img/tip-calculator.png"
+import project13 from "../assets/img/translate-io.png"
+
+
+
+
 
 export const HERO_CONTENT = `I am a Tabark Front End Developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -70,6 +83,74 @@ export const PROJECTS = [
     description:
       "A respnsive web site to show your ideal weight and BMi(body mass index) with your weight(kg), height(cm)",
     technologies: ["HTML", "CSS", "Tailwind-css", "react js", "vite"],
+  },
+  {
+    title: "Finance Tracker",
+    link:"https://finance-tracker-1.vercel.app/",
+    image: project5,
+    description:
+      "A respnsive web site for tracker your finance like (Expence, Income, Save )",
+    technologies: [ "Tailwind-css", "react js", "vite","jsx", "Chart js"],
+  },
+  {
+    title: "Library Hub",
+    link:"https://library-hub-yt8c.vercel.app/",
+    image: project6,
+    description:
+      "A Responsive website display The most famous books in any specialty",
+    technologies: [ "Tailwind-css", "react js", "vite", "tsx"],
+  },
+  {
+    title: "Pro-Task Manager",
+    link:"https://pro-task-manager-sigma.vercel.app/",
+    image: project7,
+    description:
+      "View responsive website Task list to add the task when it is completed and active",
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx"],
+  },
+  {
+    title: "Descovery Aswan",
+    link:"https://discovery-aswan.vercel.app/",
+    image: project8,
+    description:
+      "A responsive tourist site that displays the most important tourist areas in Aswan",
+    technologies: [ "HTML", "CSS",  "js"],
+  },
+  {
+    title: "Easy Bank Landing",
+    link:"https://easybank-landing-page-one-nu.vercel.app/",
+    image: project9,
+    description:
+      "View responsive website landing page for company (easy bank)",
+    technologies: [ "HTML", "CSS", "js"],
+  },  {
+    title: "Music Player",
+    link:"https://music-player-bice-ten.vercel.app/",
+    image: project10,
+    description:
+      "the music player with all feature like switch to another song and Presentation and delay in song",
+    technologies: [ "HTML", "CSS", "js"],
+  },  {
+    title: "Recipe Finder",
+    link:"https://recipe-finder-green-nu.vercel.app/",
+    image: project11,
+    description:
+      "A responsive site for quick-to-prepare recipes with several types of foods, such as vegetarian...",
+    technologies: [ "Tailwind-css", "react js", "vite", "tsx","API"],
+  },  {
+    title: "Tip-Calculator",
+    link:"https://tip-calculator-app-gamma-azure.vercel.app/",
+    image: project12,
+    description:
+      "Responsive tip account website with many features",
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx"],
+  },  {
+    title: "Translated.io",
+    link:"https://translation-app-two-nu.vercel.app/",
+    image: project13,
+    description:
+      "translation app to translte of many languge and you have many features like you can copy th text and more",
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx"],
   },
 ];
 

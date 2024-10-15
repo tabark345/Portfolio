@@ -24,7 +24,7 @@ return (
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:1.2}}
-            href="#" className=" border-b">{CONTACT.email}</motion.a>
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent" className=" border-b" target="_blank">{CONTACT.email}</motion.a>
         </div>
     </div>
 )
