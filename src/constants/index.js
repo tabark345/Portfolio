@@ -13,7 +13,7 @@ import project12 from "../assets/img/tip-calculator.png"
 import project13 from "../assets/img/translate-io.png"
 import project14 from "../assets/img/Decision_Wise_2.png"
 import project15 from "../assets/img/digital-market-platform.png";
-import project16 from "../assets/img/nile-wander-ride.png";
+import project16 from "../assets/img/nile-wander-wide.png";
 import project17 from "../assets/img/bg-remover.png";
 
 
