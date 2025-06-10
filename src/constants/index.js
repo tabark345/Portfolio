@@ -11,8 +11,10 @@ import project10 from "../assets/img/music-player.png"
 import project11 from "../assets/img/recipe-finder.png"
 import project12 from "../assets/img/tip-calculator.png"
 import project13 from "../assets/img/translate-io.png"
-
-
+import project14 from "../assets/img/Decision_Wise_2.png"
+import project15 from "../assets/img/digital-market-platform.png";
+import project16 from "../assets/img/nile-wander-ride.png";
+import project17 from "../assets/img/bg-remover.png";
 
 
 
@@ -151,6 +153,38 @@ export const PROJECTS = [
     description:
       "translation app to translte of many languge and you have many features like you can copy th text and more",
     technologies: [ "Tailwind-css", "react js", "vite", "jsx"],
+  },
+  {
+    title: "🧠DecisionWise",
+    link:"https://decision-wise.vercel.app/",
+    image: project14,
+    description:
+      "the  DecisionWise app is a decision-making tool that helps users make informed choices by evaluating options based on various criteria.",  
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx","API","Chart js","AI","Express.js"],    
+  },
+  {
+    title: "Digital Market Platform",
+    link:"https://digital-market-platform-1.vercel.app/",
+    image: project15,
+    description:
+      "A digital market platform that allows users to buy and sell products online, featuring user authentication, product listings, and a secure payment system.",   
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx","API","Express.js"],    
+  },
+  {
+    title: "Nile Ride",
+    link:"https://nile-wander-ride.vercel.app/",
+    image: project16,
+    description:
+      "Nile Ride is a web application that provides users with a platform to book and manage boat rides along the Nile River, offering features such as ride scheduling, payment processing, and user reviews.",   
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx","API","Express.js"],    
+  },
+  {
+    title: "BG-Remover",  
+    link:"https://ai-bg-removal.vercel.app/",
+    image: project17,
+    description:
+      "BG-Remover is an AI-powered web application that allows users to remove backgrounds from images easily, providing a seamless experience for graphic designers and content creators.",   
+    technologies: [ "Tailwind-css", "react js", "vite", "jsx","API","Express.js", "AI"],    
   },
 ];
 
